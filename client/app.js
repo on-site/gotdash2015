@@ -23,4 +23,9 @@ Router.map(function() {
     path: '/schedule',
     template: 'schedule'
   });
+
+  this.route('lightning', {
+    path: '/lightning',
+    template: 'lightning'
+  });
 });
