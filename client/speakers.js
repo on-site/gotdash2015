@@ -8,7 +8,7 @@ Template.speakers.rendered = function () {
     var modal = $(this);
     if (Session.get('name')) {
       delete Session.keys.name;
-      Router.go('/schedule');
+      history.back();
     }
   });
   if (Session.get('name')) {
